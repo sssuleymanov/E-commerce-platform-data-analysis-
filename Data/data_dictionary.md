@@ -29,7 +29,7 @@ Note that we need to combine all values of each order to have total values.
 order_id: unique ID of order
 payment_sequential: sequence order
 payment_type: payment type
-payment_installments: full payment (payment_installments = 1) or installment (payment_installments > 1,total payment is splited to many payments .
+payment_installments: full payment (payment_installments = 1) or installment (payment_installments > 1),total payment is splited to many payments .
 payment_value: payment value (payment_value - equal total payments of all times payment installments)
 
 ✔ Product dataset

@@ -20,7 +20,7 @@ Main Hub: São Paulo (SP) accounts for the vast majority of transactions.
 Late Delivery Rate: Jumped from ~15% in February to 20.99% in March.
 
 Visual Proof: This page shows the exact moment when the "Amount of Late Delivery" line hit its historic peak.
-![Deliver İnformation](images/2nd_page.png)
+![Deliver İnformation](images/second page.png)
 
 ### Page 3: Money & Payments (Order and Transaction)
 

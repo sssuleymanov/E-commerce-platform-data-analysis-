@@ -20,7 +20,7 @@ Main Hub: São Paulo (SP) accounts for the vast majority of transactions.
 Late Delivery Rate: Jumped from ~15% in February to 20.99% in March.
 
 Visual Proof: This page shows the exact moment when the "Amount of Late Delivery" line hit its historic peak.
-![Deliver İnformation](images/second page.png)
+![Deliver İnformation](images/second_page.png)
 
 ### Page 3: Money & Payments (Order and Transaction)
 
@@ -33,11 +33,11 @@ Installments: Even for small purchases, customers often split payments into mult
 
 1. February 2018: The "Computer Accessories" Bug
    While overall delays were low in February, my category-specific analysis showed that Computers Accessories was the only category experiencing significant friction. This was a "local" problem, likely tied to a specific supplier or a customs delay for electronics.
-   ![Logistics February](images/february_crisis.png)
+   ![Logistics February](images/February_crisis.png)
 
 2. March 2018: The Systemic Collapse
    In March, everything changed. The number of late deliveries skyrocketed to 1,530 orders.
-   ![Logistics March](images/march.png)
+   ![Logistics March](images/march_crisis.png)
 
 Not a State Problem: By clicking on the March peak, I saw that the delay affected all states (SP, RJ, MG, etc.) proportionally.
 

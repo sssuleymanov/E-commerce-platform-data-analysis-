@@ -4,20 +4,6 @@
 
 The main goal of this project was not just to build a dashboard, but to investigate a massive surge in delivery delays during early 2018. I analyzed over 99K orders to find out if the problem was regional, product-related, or a data quality issue.
 
-## 🛠 Solving Data & Model Problems
-
-Before I could find the real insights, I had to fix the "broken" parts of the data model:
-
-Fixing Relationships: I discovered that the customer table had an Inactive Relationship with the orders table, which caused all geographic charts to show identical, incorrect values. I activated the link to enable real-time filtering by state.
-
-Cross-Filtering (Snowflake Schema): Because Category data was hidden deep in the product_summarize table, I used DAX (RELATED & CROSSFILTER) to bridge the gap between products and orders. This fixed the "equal bars" problem and showed the real differences between categories.
-Late Delivery by Category =
-CALCULATE(
-[Late Delivery Count],
-CROSSFILTER(orders[order_id], order_items[order_id], Both)
-)
-Data Quality (Invalid Timelines): I identified a "dirty data" problem. Approximately 0.06% of orders had impossible dates (e.g., delivery recorded before the purchase happened). I isolated these Invalid Timelines to keep my reports accurate.
-
 ## 📊 Dashboard Overview
 
 ### Page 1: General Business Health (Total Information)

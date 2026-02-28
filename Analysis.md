@@ -33,7 +33,7 @@ Installments: Even for small purchases, customers often split payments into mult
 
 1. February 2018: The "Computer Accessories" Bug
    While overall delays were low in February, my category-specific analysis showed that Computers Accessories was the only category experiencing significant friction. This was a "local" problem, likely tied to a specific supplier or a customs delay for electronics.
-   ![Logistics February](images/February_crisis.png)
+   ![Logistics February](images/february_crisis.png)
 
 2. March 2018: The Systemic Collapse
    In March, everything changed. The number of late deliveries skyrocketed to 1,530 orders.
